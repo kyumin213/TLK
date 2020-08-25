@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "选择低层公链",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tab-top": "/components/tabTop",
+    "next-button": "/components/nextButton"
+  }
+}

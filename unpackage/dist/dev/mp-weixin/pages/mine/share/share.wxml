@@ -1,0 +1,1 @@
+<view><tab-top vue-id="2b7a759a-1" left-icon="back" title="海报" bind:__l="__l"></tab-top><canvas style="width:80%;height:1000rpx;margin:0 auto;" canvss-id="share"></canvas></view>

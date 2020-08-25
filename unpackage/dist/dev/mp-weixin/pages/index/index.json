@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "资产",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tab-top": "/components/tabTop",
+    "router": "/components/router"
+  }
+}

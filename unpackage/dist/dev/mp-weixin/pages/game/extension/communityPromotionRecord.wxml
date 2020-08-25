@@ -1,0 +1,1 @@
+<view><tab-top vue-id="58389497-1" left-icon="back" title="社区推广激励记录" bind:__l="__l"></tab-top><view class="box"><view class="head"><text>时间</text><text>CUB数量</text></view><view class="item"><text>2020-06-19 07:02:06</text><text>0.2 TCNY</text></view><view class="item"><text>2020-06-19 07:02:06</text><text>0.2 TCNY</text></view></view></view>

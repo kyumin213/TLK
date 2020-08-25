@@ -1,0 +1,165 @@
+
+page {
+	background-image: url(/static/bg.png);
+	background-size: 100% 100%;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.colorTxt.data-v-e213fafe {
+  color: #2DE9B7;
+}
+.listItem.data-v-e213fafe {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  width: 100%;
+  height: 100rpx;
+  background-color: #1D2B49;
+  padding: 0 34rpx;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #42527A;
+}
+.itemLeft.data-v-e213fafe {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+}
+.addressTxt.data-v-e213fafe {
+  font-size: 24rpx;
+}
+.addressDes.data-v-e213fafe {
+  font-size: 18rpx;
+  color: #8DA1C1;
+}
+.selectIcon.data-v-e213fafe {
+  width: 34rpx;
+  height: 34rpx;
+  background-size: cover;
+}
+.btnBox.data-v-e213fafe {
+  position: fixed;
+  bottom: 83rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.mb10.data-v-e213fafe {
+  margin-bottom: 10rpx;
+}
+.btn.data-v-e213fafe {
+  width: 560rpx;
+  height: 66rpx;
+  line-height: 66rpx;
+  color: #fff;
+  border-radius: 4rpx;
+  background: -webkit-linear-gradient(left, #2A65BC, #079D74);
+  background: linear-gradient(left, #2A65BC, #079D74);
+}
+.pwdModal.data-v-e213fafe {
+  position: absolute;
+  top: 350rpx;
+  left: 94rpx;
+  right: 94rpx;
+  background: #075F4D;
+  height: 350rpx;
+  box-sizing: border-box;
+  border-radius: 14rpx;
+  z-index: 99;
+}
+.pwdModal .close.data-v-e213fafe {
+  display: inline-block;
+  width: 20rpx;
+  height: 2rpx;
+  background: #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  top: 30rpx;
+  right: 20rpx;
+}
+.pwdModal .close.data-v-e213fafe::after {
+  content: '';
+  width: 20rpx;
+  height: 2rpx;
+  background: #fff;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  position: absolute;
+}
+.pwdModal .pwdCon.data-v-e213fafe {
+  position: absolute;
+  top: 60rpx;
+  width: 100%;
+  text-align: center;
+}
+.pwdModal .pwdCon .pwdTxt.data-v-e213fafe {
+  font-size: 30rpx;
+  color: #fff;
+}
+.pwdModal .pwdCon .pwdInp.data-v-e213fafe {
+  margin: 50rpx 30rpx 20rpx 30rpx;
+  box-sizing: border-box;
+  height: 66rpx;
+  line-height: 166rpx;
+  border: 2rpx solid #2DEAB7;
+  border-radius: 4rpx;
+  background: #0D3C3B;
+  color: #fff;
+}
+.pwdModal .pwdCon .pwdBtnBox.data-v-e213fafe {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin: 0 30rpx;
+}
+.pwdModal .pwdCon .pwdBtnBox .pwdBtn.data-v-e213fafe {
+  font-size: 24rpx;
+  color: #fff;
+  width: 200rpx;
+  height: 66rpx;
+  line-height: 66rpx;
+  background: #0D3C3B;
+  border: 2rpx solid #2DEAB7;
+  border-radius: 4rpx;
+}
+

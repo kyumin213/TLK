@@ -1,0 +1,35 @@
+@mixin size($w,$h,$b) {
+	@if $w == auto{
+		height:$h;
+		background-color:$b;
+	}@else{
+		width:$w;
+		height:$h;
+		background-color:$b;
+	}
+}
+@mixin font($size,$color) {
+	font-size: $size;
+	color: $color;
+}
+@mixin cen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@mixin levelCen{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+@mixin bg {
+	background-image: url('~@/static/bg.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+@mixin icon($url) {
+	background-image: url($url);
+	background-size: 100%,100%;
+	background-repeat: no-repeat;
+}

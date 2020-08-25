@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "TORN转账收款",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tab-top": "/components/tabTop"
+  }
+}

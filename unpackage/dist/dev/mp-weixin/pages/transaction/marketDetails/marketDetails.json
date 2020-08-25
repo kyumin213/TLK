@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "交易市场",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tab-top": "/components/tabTop"
+  }
+}

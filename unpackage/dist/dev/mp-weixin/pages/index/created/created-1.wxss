@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.created-1 {
+  height: 100vh;
+  background-image: url(/static/bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.created-1 .created-lsit {
+  height: 100rpx;
+  background-color: #1D2B49;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: relative;
+}
+.created-1 .created-lsit .icon {
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #2DE9B7;
+  border-radius: 50%;
+  margin-left: 45rpx;
+}
+.created-1 .created-lsit .val {
+  margin-left: 16rpx;
+}
+.created-1 .created-lsit .check {
+  width: 34rpx;
+  height: 34rpx;
+  background-color: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 40rpx;
+}
+.created-1 .created-lsit .check .check-icon {
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  border-radius: 50%;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAFaElEQVRIia2Xe2xTVRzHP+f2sdKt7AHtxkMtBpABmbIIGCBoNGwkJiNOAyQSI8FAeG0oJib8YUwwIaKDweQREIiGBFjMCBI1jEXeahgbsTIQRmCG5wZsLdu6rve2x5xbOpjsCfzSJvfe8/t9P/f87nn8jnANfpHezHt+kw3IBWYAEwEVlPIgzA9cASqBw8Ahn3um3ptmj2Dvuc1KfAXIJUjhRkiQAoRqleYvdi1i97HHd0FsQshiX/pMf7/B3r+2zAVZDCJdqYVrbxKsqCZUdRm9rp6ov9X005ITsY1Ix5E9EueMbOyjhsZeRMh6pFjhG5qzt09g79ktFiQlwGIVH6q+jP/bA4TOXu4te6Y5JowkZVkejuxR8SRsAZb7nsuJdAv2Vm61AKVAvgzrNBaV0rz/JEjZJ+hDVYHrnWmkrZyNsNtUfBlCzPZ5Z3TAtU4BEYoxRH7UH+T2ovU0l53oP1SZlGas0lBaREU+htjwqEsH2Hty2xx0sUwGDeoLS2g/d6X/wP+Z0lBassUAg6VZ/1TM6QT2Htmegi42EtFo3FBK+/mrTw2Nm9JqLC4FQ4OItjGr5reUDjAGKzCERw2k5oPHnxk0bs0/nyB0thZ04UEXK0yw99cddnRtCYbAv3P/k33TRyx5QS7PHy8itWDWw4dS4t+xX4HBEEuyzhy1a4RFDobmDl+6QejcpaeCJuVNJXVhPpo9Edfb0zu1hWpqCddeV3A3usjRMLQc9SbBU1VPBXVMGMOg5fOgTTP/gV3lj/kET1aDril4rhVdZKuZHqp58t7avcPxrFqGCNvNdDb/coTA3kOP+YVqLqrxBFLLVuDRasLrN251K6wNGEC0ra3LNstAF56VhWgyCVqV+AUat+7p0le/eRvC5ngeZUXXklWPoy0tXTp7lhbgfHUiLcePcff7nRCNdrQJux1P4UqsSRkmNHz9Gg1rS5CG0aWWyVCpRiZbMTcwrUtHZQ5vFrRaSMp+E83i4s6uEmTEMJdF97zFJHhGm9BI830a1q0j2hbsVivWbXM7Q0MXAXWjJSZ16Xfvh++QAWnCnSNfw/PhZwhbAqm5c3GOmgItFmSTQcPmbzCa7vbINBlhoXodUKmuBdw29zAigce3z9a//yQa0vG89wnCksCAIRMYtrAIa5pKrzR3wDulJbRf6333srmHxlYwKWtVj6tU3h3ezG4D2mqrqN+9hmigHYIa1oRhZgYIWmg6tIfgxcpeoZifLTO+iFQrcIX6zs7MyT0Gha6do37fF0QDIQjF5mrzmXICp8v6BFXmHDM5Bta1wxq6Vo6u3bMP8uJ4fkyPge0NtTQe2070fhutF05w78S2PkOVtn3wCAW+i065pe10hZEybY6TqHjDmpJBi+9ojwLhxjoCvh8J1v3+sM7q1QSD8wqwujxqb/7aV5BdEZtHuihGFw2OoeNwTcjpcy/6aq6X30JpY4g7GKKY+ASu++pdP4YoUPlPmz6fhCGjnxlUaaW9viA2mg2twPfpK+bUsSQ4U00H/x/7alImzXULaZ2UOHIKoZs1RFruPSX0JdLzPkezOtVX2eRblbU23tZ5yTK0QiJamWZNIiNvNa5xufHCuZ8mzNiMWavRrC6IiDIMUfioxuPl7aIDqtKMlbdqGt2qwV+5m9Ct831iO4aMJWXi+ziGjH9AYAuS5b4vx3df3nZ6gY9+mguoytCDOZr/JXj1FKHbNeiB60RD92MpcwzEljwcR8Y4nCOmYk97IS7RABT61ozrW0HfCT7/oCrMPgaWAoM6t8bPLx3nmPi1GhibgPW+tWP7f4Tp9AIfHLQhyEUKNdfih7bUB6AmkFdAVIIsB1HuK8oM9ygI/Aes7BoAUKAHYwAAAABJRU5ErkJggg==);
+  background-size: 100%,100%;
+  background-repeat: no-repeat;
+}
+.created-1 .next {
+  width: 100%;
+  height: 66rpx;
+  background-color: none;
+  position: fixed;
+  bottom: 83rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.created-1 .next .next-button {
+  width: 500rpx;
+  height: 66rpx;
+  background-color: none;
+  font-size: 24rpx;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background: -webkit-linear-gradient(left, #2A65BC, #079D74);
+  background: linear-gradient(90deg, #2A65BC, #079D74);
+  border-radius: 4rpx;
+}
+

@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['next',['$event']]]]]}}" class="{{['next',(bottom)?'next-active':'']}}" bindtap="__e"><view class="next-button"><text>{{msg}}</text></view></view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "切换钱包",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tab-top": "/components/tabTop"
+  }
+}

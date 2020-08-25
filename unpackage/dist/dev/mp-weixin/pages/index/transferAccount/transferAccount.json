@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "TRON转账",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tab-top": "/components/tabTop"
+  }
+}

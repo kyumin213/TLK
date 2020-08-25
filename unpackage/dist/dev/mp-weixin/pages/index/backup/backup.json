@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "备份提示",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tab-top": "/components/tabTop",
+    "next-button": "/components/nextButton"
+  }
+}

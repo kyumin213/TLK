@@ -1,0 +1,86 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/created/created-1",
+    "pages/index/createdWallet/createdWallet",
+    "pages/index/importWallet/importWallet",
+    "pages/index/backup/backup",
+    "pages/index/backups/backups",
+    "pages/index/testWallet/testWallet",
+    "pages/index/more/more",
+    "pages/index/notice/notice",
+    "pages/index/checkout/checkout",
+    "pages/game/game",
+    "pages/transaction/transaction",
+    "pages/transaction/market/market",
+    "pages/transaction/marketDetails/marketDetails",
+    "pages/mine/mine",
+    "pages/mine/share/share",
+    "pages/index/walletAddress/walletAddress",
+    "pages/index/editAddress/editAddress",
+    "pages/index/transferAccount/transferAccount",
+    "pages/index/messageCenter/messageCenter",
+    "pages/index/transferCollection/transferCollection",
+    "pages/game/laohu/laohu",
+    "pages/game/notice/notice",
+    "pages/game/accountAssets/accountAssets",
+    "pages/mine/SecurityCenter/SecurityCenter",
+    "pages/mine/SecurityCenter/exportWord/exportWord",
+    "pages/mine/SecurityCenter/exportPrivateKey/exportPrivateKey",
+    "pages/mine/SecurityCenter/changePwd/changePwd",
+    "pages/game/assetsHistory/assetsHistory",
+    "pages/game/recharge/recharge",
+    "pages/game/assetsWithdrawal/assetsWithdrawal",
+    "pages/game/orePool/orePool",
+    "pages/game/bonus/bonus",
+    "pages/game/extension/extension",
+    "pages/game/extension/guize",
+    "pages/game/extension/communityPromotionRecord",
+    "pages/game/extension/communityPromotionRanking",
+    "pages/game/extension/myRecords",
+    "pages/game/extension/personalRank",
+    "pages/game/extension/personalRecord",
+    "pages/game/extension/erweima",
+    "pages/mine/feedBack/feedBack"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#5877fc",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "资产"
+      },
+      {
+        "pagePath": "pages/transaction/transaction",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "交易"
+      },
+      {
+        "pagePath": "pages/game/game",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "游戏"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

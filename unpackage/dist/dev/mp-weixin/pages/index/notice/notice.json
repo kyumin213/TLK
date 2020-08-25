@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "官方公告",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tab-top": "/components/tabTop"
+  }
+}

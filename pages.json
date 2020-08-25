@@ -1,0 +1,400 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/startPage/startPage",
+		// 	"style": {
+		// 		"navigationStyle": "custom",
+		// 		"navigationBarTitleText": "",
+		// 		"app-plus": {
+		// 			"animationType": "slide-in-bottom",
+		// 			"titleNView": false //禁用原生导航栏
+		// 		}
+		// 	}
+		// }, 
+		{
+			"path": "pages/index/startPage/startPage",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"animationType": "slide-in-bottom",
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}, {
+			"path": "pages/index/guidePage/guidePage",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "资产",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/index/created/created-1",
+			"style": {
+				"navigationBarTitleText": "选择低层公链",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/back",
+			"style": {
+				"navigationBarTitleText": "返回页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/back2",
+			"style": {
+				"navigationBarTitleText": "辅助返回页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/createdWallet/createdWallet",
+			"style": {
+				"navigationBarTitleText": "创建钱包",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/noticeDetail/noticeDetail",
+			"style": {
+				"navigationBarTitleText": "公告详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/importWallet/importWallet",
+			"style": {
+				"navigationBarTitleText": "导入钱包",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/backup/backup",
+			"style": {
+				"navigationBarTitleText": "备份提示",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/backups/backups",
+			"style": {
+				"navigationBarTitleText": "备份助记词",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/game/back/back",
+			"style": {
+				"navigationBarTitleText": "返回",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/testWallet/testWallet",
+			"style": {
+				"navigationBarTitleText": "验证备份",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/more/more",
+			"style": {
+				"navigationBarTitleText": "更多",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/whitePaper/whitePaper",
+			"style": {
+				"navigationBarTitleText": "白皮书",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/introduce/introduce",
+			"style": {
+				"navigationBarTitleText": "项目介绍",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/checkout/checkout",
+			"style": {
+				"navigationBarTitleText": "切换钱包",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/game/game",
+			"style": {
+				"navigationBarTitleText": "游戏",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/transaction/transaction",
+			"style": {
+				"navigationBarTitleText": "交易",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/transaction/market/market",
+			"style": {
+				"navigationBarTitleText": "交易市场",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/transaction/marketDetails/marketDetails",
+			"style": {
+				"navigationBarTitleText": "交易市场",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/transaction/order/order",
+			"style": {
+				"navigationBarTitleText": "订单记录",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 160
+			}
+		},
+
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/share/share",
+			"style": {
+				"navigationBarTitleText": "分享",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/index/walletAddress/walletAddress",
+			"style": {
+				"navigationBarTitleText": "选择收款钱包地址",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/index/editAddress/editAddress",
+			"style": {
+				"navigationBarTitleText": "编辑地址",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/index/transferAccount/transferAccount",
+			"style": {
+				"navigationBarTitleText": "TRON转账",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/index/messageCenter/messageCenter",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 260
+			}
+		}, {
+			"path": "pages/index/transferCollection/transferCollection",
+			"style": {
+				"navigationBarTitleText": "TORN转账收款",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/laohu/laohu",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/game/notice/notice",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/accountAssets/accountAssets",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/SecurityCenter/SecurityCenter",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/SecurityCenter/exportWord/exportWord",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/SecurityCenter/exportPrivateKey/exportPrivateKey",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/SecurityCenter/changePwd/changePwd",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/assetsHistory/assetsHistory",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/recharge/recharge",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/assetsWithdrawal/assetsWithdrawal",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/orePool/orePool",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/bonus/bonus",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/extension/extension",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/extension/guize",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/extension/communityPromotionRecord",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/extension/communityPromotionRanking",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/extension/myRecords",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/extension/personalRank",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/extension/personalRecord",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/extension/erweima",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+
+			"path": "pages/game/laohu/gameDeatil/gameDeatil",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/feedBack/feedBack",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/notice/noticeDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/index/guidePage/guidePage",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/notice/gongGaoList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/game/notice/kuaiXunList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance": 160
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#2DEAB7",
+		"borderStyle": "black",
+		"backgroundColor": "#0F192A",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/shouye01.png",
+				"selectedIconPath": "static/tabbar/shouye.png",
+				"text": ""
+			},
+			{
+				"pagePath": "pages/transaction/transaction",
+				"iconPath": "static/tabbar/jiaoyi01.png",
+				"selectedIconPath": "static/tabbar/jiaoyi.png",
+				"text": ""
+			},
+			{
+				"pagePath": "pages/game/game",
+				"iconPath": "static/tabbar/youxi01.png",
+				"selectedIconPath": "static/tabbar/youxi.png",
+				"text": ""
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tabbar/wode01.png",
+				"selectedIconPath": "static/tabbar/wode.png",
+				"text": ""
+			}
+		]
+	}
+}

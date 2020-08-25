@@ -1,0 +1,179 @@
+[33mcommit 6a178e070de0eb6f1eb3c90bb6d358fbca7a6ba5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 6a24f08 6540f3e
+Author: ysys <1243933010@qq.com>
+Date:   Sun Jun 28 19:33:53 2020 +0800
+
+    测试
+
+[33mcommit 6a24f08c0307a6b5ba2820e250724d6ade999e9c[m
+Author: ysys <1243933010@qq.com>
+Date:   Sun Jun 28 19:31:12 2020 +0800
+
+    huitui
+
+[33mcommit 6540f3ed170dacd590dac48015fe73cb691e2698[m
+Merge: 9643f4a ff90a48
+Author: ysys <1243933010@qq.com>
+Date:   Sun Jun 28 19:02:25 2020 +0800
+
+    test
+
+[33mcommit 9643f4a263fe41dcd5dd81e3535154e212eb3a71[m
+Author: ysys <1243933010@qq.com>
+Date:   Sun Jun 28 18:58:46 2020 +0800
+
+    添加游戏页面
+
+[33mcommit ff90a4877d2e1301c4f0bcf0f151ea182e097582[m[33m ([m[1;32mtest[m[33m)[m
+Merge: 49a5a28 b407ba5
+Author: kyumin213 <yutong8023p@163.com>
+Date:   Sun Jun 28 18:04:50 2020 +0800
+
+    个人中心
+
+[33mcommit 49a5a28194eb8e1e6b6978049f54511e599f6040[m
+Author: kyumin213 <yutong8023p@163.com>
+Date:   Sun Jun 28 17:59:23 2020 +0800
+
+    我的个人中心
+
+[33mcommit b407ba5bf201498876b1cd500e99fe1fe9e0a098[m
+Author: ysys <1243933010@qq.com>
+Date:   Sun Jun 28 17:57:37 2020 +0800
+
+    完成游戏页面
+
+[33mcommit 4b52f8c60b1d2a65b26cffadba9909ef43dc6b7d[m
+Author: ysys <1243933010@qq.com>
+Date:   Sun Jun 28 10:21:14 2020 +0800
+
+    新写资产详情 request添加缓存token
+
+[33mcommit 448fc0e398d2b6e52ca9749441e1337645b4dc48[m
+Author: kyumin213 <yutong8023p@163.com>
+Date:   Wed Jun 24 19:20:20 2020 +0800
+
+    首页
+
+[33mcommit c9d2ffdfb93acab61fccfd2fa472165a911c1a52[m
+Merge: 94a242d fada339
+Author: kyumin213 <yutong8023p@163.com>
+Date:   Wed Jun 24 19:16:03 2020 +0800
+
+    首页
+
+[33mcommit 94a242d15f6caafdfa431fd1f49b846524b997aa[m
+Author: kyumin213 <yutong8023p@163.com>
+Date:   Wed Jun 24 18:19:52 2020 +0800
+
+    首页、地址、消息
+
+[33mcommit fada33926f130abb4f5e7fdd3c291e2069c2c111[m
+Author: ysys <1243933010@qq.com>
+Date:   Wed Jun 24 18:16:03 2020 +0800
+
+    新增游戏首页 资产 公告页面
+
+[33mcommit 09f2a3c4af72cc5037c449cf02616444d2a280ff[m
+Author: ysys <1243933010@qq.com>
+Date:   Wed Jun 24 15:07:31 2020 +0800
+
+    修改状态栏图片
+
+[33mcommit 2c160e03225c4b67a56960063288c9f7c220fabf[m
+Merge: df2eb39 f61a8b9
+Author: ysys <1243933010@qq.com>
+Date:   Wed Jun 24 15:01:14 2020 +0800
+
+    合并首页
+
+[33mcommit df2eb393f1c89cb0f3d9637e69030344bdc5ce04[m
+Author: ysys <1243933010@qq.com>
+Date:   Wed Jun 24 14:59:52 2020 +0800
+
+    unpack
+
+[33mcommit f61a8b9252e8f65a0149c7ce4f57d53509343ea8[m
+Author: ysys <1243933010@qq.com>
+Date:   Wed Jun 24 14:57:11 2020 +0800
+
+    unpack
+
+[33mcommit 9034db52a71d04c390490ee7415977b6a6e98af4[m
+Author: ysys <1243933010@qq.com>
+Date:   Wed Jun 24 14:44:00 2020 +0800
+
+    新增游戏横屏页面测试
+
+[33mcommit 7b4cb6c1f7234f53f7359bcde5cca9b69491b86e[m
+Author: hewenhao44 <1659190177@qq.com>
+Date:   Wed Jun 24 14:39:41 2020 +0800
+
+    创建账户1-5，导入账户1-2，更多，公告，切换账户
+
+[33mcommit f29dbabd5176e2edbee800763bb7795d42c6f769[m
+Merge: 9310195 6ce09fc
+Author: kyumin213 <yutong8023p@163.com>
+Date:   Wed Jun 24 09:50:39 2020 +0800
+
+    Merge https://github.com/1243933010/TLK
+
+[33mcommit a05ede9a3ae2a2fd0022ce13e4695da9a00a3195[m
+Author: hewenhao44 <1659190177@qq.com>
+Date:   Tue Jun 23 19:23:23 2020 +0800
+
+    创建账户1-5，导入账户1-2
+
+[33mcommit 9310195c7e7a8136bfe3214f01eb05423e4a5263[m
+Author: kyumin213 <yutong8023p@163.com>
+Date:   Tue Jun 23 19:20:31 2020 +0800
+
+    Signed-off-by: kyumin213 <yutong8023p@163.com>
+
+[33mcommit 6ce09fc922eb3e59ef613d3877b3efa943f7510b[m
+Author: ysys <1243933010@qq.com>
+Date:   Tue Jun 23 15:30:51 2020 +0800
+
+    添加语言切换文件
+
+[33mcommit 48b25ac3c31526af5340b6aa90d1bcfd2d5b00b9[m
+Author: ysys <1243933010@qq.com>
+Date:   Tue Jun 23 10:28:40 2020 +0800
+
+    状态新增左右两个点击事件
+
+[33mcommit 7f6a71fc1fdf85bc1d97988d54d4f6063f19026d[m
+Author: ysys <1243933010@qq.com>
+Date:   Mon Jun 22 18:14:09 2020 +0800
+
+    更新组件
+
+[33mcommit f6ab2235647b7dd2c472aa2c49b194842363be34[m
+Author: ysys <1243933010@qq.com>
+Date:   Mon Jun 22 17:16:28 2020 +0800
+
+    新增解析富文本函数
+
+[33mcommit a2955a043e8fd7d9c93614222c84f0cd3fd57903[m
+Author: ysys <1243933010@qq.com>
+Date:   Mon Jun 22 16:53:10 2020 +0800
+
+    新增几个官方组件，修改状态栏组件
+
+[33mcommit 56573c9a24a0d6028205fb5ec8d25ef5f57b4841[m
+Author: ysys <1243933010@qq.com>
+Date:   Mon Jun 22 15:26:23 2020 +0800
+
+    封装部分函数
+
+[33mcommit c2da9ed30879de0554bc2d42807c789bd06b741c[m
+Author: ysys <1243933010@qq.com>
+Date:   Mon Jun 22 14:56:13 2020 +0800
+
+    添加底部tabbar
+
+[33mcommit f292f545acac1a4863e3a18b45c530193419d031[m
+Author: ysys <1243933010@qq.com>
+Date:   Mon Jun 22 14:48:53 2020 +0800
+
+    first commit

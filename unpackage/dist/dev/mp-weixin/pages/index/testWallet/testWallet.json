@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "验证备份",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tab-top": "/components/tabTop",
+    "next-button": "/components/nextButton"
+  }
+}

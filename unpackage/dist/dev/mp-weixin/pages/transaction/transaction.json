@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "交易",
+  "usingComponents": {
+    "my-title": "/components/myTitle"
+  }
+}

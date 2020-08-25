@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择收款钱包地址",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tab-top": "/components/tabTop"
+  }
+}
